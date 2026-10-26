@@ -6,6 +6,17 @@ An end-to-end .NET 10/C# retrieval-augmented generation portfolio project with a
 
 **Start here:** [System architecture](docs/architecture.md) · [5–7 minute demo](docs/demo-walkthrough.md) · [Interview-ready project highlights](docs/portfolio-highlights.md) · [Testing evidence and limits](docs/testing-and-resilience.md).
 
+## Hiring-manager quick tour
+
+**What this demonstrates:** C#/.NET 10 backend architecture, document ingestion and retrieval, optional Azure AI integration, cloud security patterns, telemetry, tests, and infrastructure as code. Local mode is reproducible without Azure credentials.
+
+- [System architecture](docs/architecture.md) — data flow and tradeoffs.
+- [5–7 minute demo](docs/demo-walkthrough.md) — reproducible walkthrough.
+- [Portfolio highlights](docs/portfolio-highlights.md) — implementation summary.
+- [Tests and limitations](docs/testing-and-resilience.md) — what is validated and what remains unverified.
+
+The optional Azure-backed features need separate provisioning and credentials; the documentation does not claim a verified production deployment.
+
 ## Architecture
 
 ```mermaid
