@@ -32,7 +32,7 @@ jobs:
           curl --fail --silent -X POST http://localhost:5080/ask -H 'Content-Type: application/json' -d '{"question":"queue latency","topK":3}' | grep -q 'runbook'
           python3 scripts/load-test-api.py --requests 40 --concurrency 5
       - name: Compile Bicep infrastructure template
-        uses: azure/cli@v2
+        uses: azure/cli@v3
         with:
           inlineScript: |
             az bicep install
